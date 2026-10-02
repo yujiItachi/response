@@ -874,7 +874,7 @@
           <textarea
             id="msgInput"
             placeholder="यहाँ अपने हृदय की बात लिखें..."
-            maxlength="5000"
+            maxlength="10000"
             autocomplete="off"
             spellcheck="false"
           ></textarea>
@@ -886,7 +886,7 @@
               </span>
               <span id="errMsg" class="err-msg" style="display: none"></span>
             </div>
-            <span id="charCount" class="char-count">0 / 5000</span>
+            <span id="charCount" class="char-count">0 / 10000</span>
           </div>
         </div>
 
@@ -1014,7 +1014,7 @@
         // Example: const API_URL = 'https://script.google.com/macros/s/ABCDEFG123456/exec';
         // ============================================================
 
-        const MAX_CHARS = 5000;
+        const MAX_CHARS = 10000;
 
         const form = document.getElementById("msgForm");
         const textarea = document.getElementById("msgInput");
